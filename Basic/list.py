@@ -28,4 +28,17 @@ while i<len(fruit):
     print(fruit[i])
     i+=1
 
+#list comprehension
+car=["volvo","toyota"]
+newCar=[x.upper() for x in car ] #[what_to_do with n for n in collection name if condition in n]
+print(newCar)
+
+num=[2,4,6,8,10]
+newNum=[n*2 for n in num if n>4]
+print(newNum)
+
+name=["karim","rahim","kalam","fuad"]
+newName=[n for n in name if "ka" in n]
+print(newName)
+
 
